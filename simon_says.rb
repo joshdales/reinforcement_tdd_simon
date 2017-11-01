@@ -1,6 +1,3 @@
-class SimonSays
-
-  def initialize
-  end
-
+def echo(word)
+  word
 end
