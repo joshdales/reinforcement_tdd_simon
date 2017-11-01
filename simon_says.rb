@@ -9,3 +9,7 @@ end
 def repeat(word, num)
   ([word] * num).join(" ")
 end
+
+def start_of_word(word, num)
+  word[0..num-1]
+end
