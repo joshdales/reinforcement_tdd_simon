@@ -13,3 +13,8 @@ end
 def start_of_word(word, num)
   word[0..num-1]
 end
+
+def first_word(string)
+  first = string.split
+  first[0]
+end
